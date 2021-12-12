@@ -55,7 +55,6 @@ app.post('/', function (req, res) {
       console.log(JSON.parse(data));
     })
   })
-
   request.write(jsonData);
   request.end();
 });
@@ -68,8 +67,3 @@ app.listen(process.env.PORT || 3000, function () {
     console.log("GO TO 3000");
 });
 
-//API Key
-//f006c575d1413d79ac94da1edd8494b1-us5
-
-//List ID
-//241c730189
